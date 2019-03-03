@@ -1,0 +1,61 @@
+.form {
+
+  &__field {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+
+    &-image {
+      margin-right: 20px;
+      background-color: $white;
+      width: 40px;
+      height: 40px;
+    }
+
+    &-upload {
+      background-image: url("../images/upload.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block !important;
+    }
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+    &-text {
+      visibility: hidden;
+    }
+    &-span {
+      color: $gray-dark60;
+      font-size: 12px;
+      padding: 5px 0px;
+    }
+    &-blank {
+      margin-left: 15px;
+    }
+    &-ok {
+      background-image: url("../images/ok.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block !important;
+    }
+  }
+}
+
+.upload {
+  margin: 0;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration:underline;
+  }
+}
+
+.checked {
+  color:$green;
+}
+
+.canceled {
+  color: $red;
+}
