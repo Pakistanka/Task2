@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+
+  <title>Task2</title>
+  <!-- Style links -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <div class="content">
+    <div class="header">
+      <div class="header__head">Подтверждение аккаунта</div>
+      <div class="header__text">Для подтверждения вашего аккаунта вам нужно заполнить все поля,
+      подтвердить,<br /> почтовый ящик и телефон, а также загрузить сканы ваших документов.</div>
+    </div>
+
+    <div class="form">
+      <div class="form__field">
+        <div class="form__field-image form__field-upload"></div>
+        <div class="form__field-wrapper">
+          <label class="upload js-random" for="upload">Загрузите скан страницы с фотографией</label>
+          <input id="upload" class="form__field-text">
+          <span class="form__field-span">Размер файла не более 5Мб</span>
+        </div>
+        <div class="form__field-blank"></div>
+      </div>
+
+      <div class="form__field">
+        <div class="form__field-image form__field-upload"></div>
+        <div class="form__field-wrapper">
+          <label class="upload js-random" for="upload2">Страница с пропиской</label>
+          <input id="upload2" class="form__field-text">
+          <span class="form__field-span">Размер файла не более 5Мб</span>
+        </div>
+        <div class="form__field-blank"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>
